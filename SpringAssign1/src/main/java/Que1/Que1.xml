@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+	<bean name="Address" class="Que1.Address"> 
+	<property name="state" value="Maharashtra"/>
+	<property name="city" value="Pune"/>
+	<property name="country" value="India"/>
+	<property name="zip" value="412192"/>
+	<property name="street" value="FC Road"/>
+	</bean>
+	
+	<bean name="Customer" class="Que1.Customer"> 
+	
+	<property name="customerId" value="1232"/>
+	<property name="customerName" value="Suraj"/>
+	<property name="customerContact" value="12345"/>
+	<property name="customerAddress" value="Maharashtra"/>
+	</bean>
+
+</beans>
